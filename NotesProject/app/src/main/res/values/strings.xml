@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Notes-Project</string>
+    <string-array name="category_array">
+        <item>All</item>
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Ideas</item>
+    </string-array>
 </resources>

@@ -9,14 +9,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!-- Centered and resized image view for 1.png -->
+
 <ImageView
 android:id="@+id/idIVLogo"
 android:layout_width="150dp"
 android:layout_height="150dp"
 android:layout_centerInParent="true"
 android:layout_margin="25dp"
-android:src="@drawable/Logo" />
+android:src="@drawable/logo_amrita" />
 
 
 <ProgressBar
