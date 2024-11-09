@@ -1,7 +1,16 @@
 <resources>
-    <string name="app_name">Notes-Project</string>
+    <string name="app_name">NotesProject</string>
+
+    <!-- Category Array for HomeActivity (including 'All') -->
     <string-array name="category_array">
-        <item>All</item>
+        <item>All</item> <!-- 'All' will be used in HomeActivity for filtering -->
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Ideas</item>
+    </string-array>
+
+    <!-- New category array without 'All' for AddNoteActivity -->
+    <string-array name="category_array_without_all">
         <item>Work</item>
         <item>Personal</item>
         <item>Ideas</item>

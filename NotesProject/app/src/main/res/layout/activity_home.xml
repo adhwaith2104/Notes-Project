@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
     <!-- Dropdown/Spinner for Filtering Notes by Category -->
     <Spinner
@@ -10,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_margin="16dp"
-        android:entries="@array/category_array" /> <!-- Define categories in strings.xml -->
+        android:entries="@array/category_array" /> <!-- Array with 'All' for filtering -->
 
     <!-- RecyclerView to Display Notes -->
     <androidx.recyclerview.widget.RecyclerView
@@ -28,6 +29,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_margin="16dp"
-        android:src="@drawable/add" />
+        android:src="@drawable/add"
+        android:tint="#FFFFFF"
+        android:backgroundTint="#6200EE"/>
 
 </RelativeLayout>
